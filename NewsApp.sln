@@ -13,6 +13,11 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NewsApp.Server.Infrastructu
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NewsApp.Server.Infrastructure.WebParser", "NewsApp.Server.Infrastructure.WebParser\NewsApp.Server.Infrastructure.WebParser.csproj", "{F4817C50-07DD-4C03-BBF2-58376CF5B9C3}"
 EndProject
+Project("{54A90642-561A-4BB1-A94E-469ADEE60C69}") = "newsapp.client", "newsapp.client\newsapp.client.esproj", "{5073C421-33A7-10FE-4FD7-905B491CD802}"
+	ProjectSection(ProjectDependencies) = postProject
+		{8CDF5B13-A3F2-4547-9F9A-D0D5A2607533} = {8CDF5B13-A3F2-4547-9F9A-D0D5A2607533}
+	EndProjectSection
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -39,6 +44,12 @@ Global
 		{F4817C50-07DD-4C03-BBF2-58376CF5B9C3}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{F4817C50-07DD-4C03-BBF2-58376CF5B9C3}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{F4817C50-07DD-4C03-BBF2-58376CF5B9C3}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5073C421-33A7-10FE-4FD7-905B491CD802}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5073C421-33A7-10FE-4FD7-905B491CD802}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5073C421-33A7-10FE-4FD7-905B491CD802}.Debug|Any CPU.Deploy.0 = Debug|Any CPU
+		{5073C421-33A7-10FE-4FD7-905B491CD802}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5073C421-33A7-10FE-4FD7-905B491CD802}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5073C421-33A7-10FE-4FD7-905B491CD802}.Release|Any CPU.Deploy.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
