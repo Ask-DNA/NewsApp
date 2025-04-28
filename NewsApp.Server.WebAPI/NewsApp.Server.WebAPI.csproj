@@ -6,4 +6,15 @@
     <ImplicitUsings>enable</ImplicitUsings>
   </PropertyGroup>
 
+  <ItemGroup>
+    <PackageReference Include="NSwag.AspNetCore" Version="14.3.0" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\NewsApp.Server.Domain\NewsApp.Server.Domain.csproj" />
+    <ProjectReference Include="..\NewsApp.Server.Infrastructure.Data\NewsApp.Server.Infrastructure.Data.csproj" />
+    <ProjectReference Include="..\NewsApp.Server.Infrastructure.WebParser\NewsApp.Server.Infrastructure.WebParser.csproj" />
+    <ProjectReference Include="..\NewsApp.Server.UseCases\NewsApp.Server.UseCases.csproj" />
+  </ItemGroup>
+
 </Project>

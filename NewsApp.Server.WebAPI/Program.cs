@@ -1,6 +1,7 @@
 var builder = WebApplication.CreateBuilder(args);
-var app = builder.Build();
+NewsApp.Server.WebAPI.ConfigurationManager.ConfigureServices(builder);
 
-app.MapGet("/", () => "Hello World!");
+var app = builder.Build();
+NewsApp.Server.WebAPI.ConfigurationManager.ConfigureApp(app);
 
 app.Run();
